@@ -85,6 +85,8 @@ inversion of control -> decoupling -> components
 
 Example from angularity-todo-es5
 
+#
+
 # Learn
 
 - free video course
@@ -93,3 +95,7 @@ Example from angularity-todo-es5
 # Style guide
 
 John Papa on github
+
+# About me
+
+# Questions
