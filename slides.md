@@ -79,6 +79,8 @@ inversion of control -> decoupling -> components
 
 # ng-if and ng-repeat have their own scopes
 
+$parent.sth
+
 # Testing
 
 # Local storage
