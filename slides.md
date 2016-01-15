@@ -93,6 +93,8 @@ Example from angularity-todo-es5
 
 # Phases: link, etc
 
+# $timeout
+
 # Learn
 
 - free video course
