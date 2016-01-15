@@ -27,3 +27,4 @@ ng-repeat
     <span ng-if="$index % 2 === 0">even</span>
   </li>
 </ul>
+```
