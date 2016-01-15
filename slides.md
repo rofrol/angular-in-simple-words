@@ -17,4 +17,13 @@ You specify what you want not how to do it
 ng-if
 ng-repeat
 
-#
+# Simple example
+
+```html
+<!doctype html>
+<div ng-app>
+<ul>
+  <li ng-repeat="1 in 1..10">
+    <span ng-if="$index % 2 === 0">even</span>
+  </li>
+</ul>
