@@ -14,8 +14,8 @@ You specify what you want not how to do it
 
 # if and loop in templates :(
 
-ng-if
-ng-repeat
+- ng-if
+- ng-repeat
 
 # Simple example
 
@@ -42,6 +42,14 @@ controller('myController', function() {
   console.log('Hello console');
 });
 ```
+
+# Services are singletones
+
+# Three kinds of services
+
+- factory
+- provider
+- config
 
 # Style guide
 
