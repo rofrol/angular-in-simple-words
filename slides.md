@@ -105,6 +105,8 @@ Example from angularity-todo-es5
 
 # Two directives on element and private scope
 
+# $destroy
+
 # Learn
 
 - free video course
