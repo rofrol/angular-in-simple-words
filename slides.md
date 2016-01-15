@@ -10,11 +10,11 @@ You specify what you want not how to do it
 
 # Cons?
 
-# if and loop in templates
-
-Yup :(
+# if and loop in templates :(
 
 # if and loop in templates
 
 ng-if
 ng-repeat
+
+#
