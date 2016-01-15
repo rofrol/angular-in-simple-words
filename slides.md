@@ -89,6 +89,8 @@ Example from angularity-todo-es5
 
 # Talking to outside world
 
+# Filters
+
 # Learn
 
 - free video course
