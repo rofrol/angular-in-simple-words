@@ -51,6 +51,12 @@ controller('myController', function() {
 - provider
 - config
 
+# Three kinds of services
+
+- factory - without new
+- provider - with new
+- config - new but configure before
+
 # Style guide
 
 John Papa on github
