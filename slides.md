@@ -57,6 +57,24 @@ controller('myController', function() {
 - provider - with new
 - config - new but configure before
 
+# Data binding
+
+# Two-way data-binding
+
+# One source of true
+
+# Scope
+
+# Dirty checking
+
+# Directives
+
+# config
+
+# Injecting
+
+inversion of control -> decoupling -> components
+
 # Style guide
 
 John Papa on github
