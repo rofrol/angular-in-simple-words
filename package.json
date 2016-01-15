@@ -1,0 +1,23 @@
+{
+  "name": "angular-in-simple-words",
+  "version": "1.0.0",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node watch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rofrol/angular-in-simple-words.git"
+  },
+  "author": "",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/rofrol/angular-in-simple-words/issues"
+  },
+  "homepage": "https://github.com/rofrol/angular-in-simple-words#readme",
+  "dependencies": {
+    "chokidar": "^1.4.2",
+    "shelljs": "^0.5.3"
+  }
+}
