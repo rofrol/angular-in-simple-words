@@ -81,6 +81,15 @@ inversion of control -> decoupling -> components
 
 # Testing
 
+# Local storage
+
+Example from angularity-todo-es5
+
+# Learn
+
+- free video course
+- oficial turorial
+
 # Style guide
 
 John Papa on github
