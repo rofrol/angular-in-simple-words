@@ -38,7 +38,9 @@ index.html
 app.js
 ```javascript
 angular.module('myApp', []).
-controller('')
+controller('myController', function() {
+  console.log('Hello console');
+});
 ```
 
 # Style guide
