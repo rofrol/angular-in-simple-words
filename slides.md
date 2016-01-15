@@ -85,7 +85,9 @@ inversion of control -> decoupling -> components
 
 Example from angularity-todo-es5
 
-#
+# Digest
+
+# Talking to outside world
 
 # Learn
 
