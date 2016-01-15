@@ -97,6 +97,12 @@ Example from angularity-todo-es5
 
 # $timeout
 
+# Communicate between Directives
+
+# Kinds of Directives
+
+# Two directives on element and private scope
+
 # Learn
 
 - free video course
