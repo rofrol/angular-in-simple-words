@@ -19,6 +19,7 @@ ng-repeat
 
 # Simple example
 
+index.html
 ```html
 <!doctype html>
 <div ng-app>
@@ -29,4 +30,17 @@ ng-repeat
   </ul>
 </div>
 <script src="angular.js"></script>
+<script src="app.js"></script>
 ```
+
+# I want my javascript back!
+
+app.js
+```javascript
+angular.module('myApp', []).
+controller('')
+```
+
+# Style guide
+
+John Papa on github
