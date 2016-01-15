@@ -75,6 +75,12 @@ controller('myController', function() {
 
 inversion of control -> decoupling -> components
 
+# Kinds of Scope
+
+# ng-if and ng-repeat have their own scopes
+
+# Testing
+
 # Style guide
 
 John Papa on github
