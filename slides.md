@@ -22,10 +22,11 @@ ng-repeat
 ```html
 <!doctype html>
 <div ng-app>
-<ul>
-  <li ng-repeat="1 in 1..10">
-    <span ng-if="$index % 2 === 0">even</span>
-  </li>
-</ul>
+  <ul>
+    <li ng-repeat="1 in 1..10">
+      <span ng-if="$index % 2 === 0">even</span>
+    </li>
+  </ul>
+</div>
 <script src="angular.js"></script>
 ```
