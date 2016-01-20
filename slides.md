@@ -7,6 +7,7 @@
     <source data-src="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4" type="video/mp4" />
   </video>
 
+
 # Customize
 
 ## Transition Styles
