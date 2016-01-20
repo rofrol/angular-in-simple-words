@@ -37,6 +37,29 @@ Highlight: <a href="#" onclick="document.getElementById('highlight').setAttribut
 Angular is a way to add new html tags
 
 
+# Example
+
+```html
+<html ng-app="phonecatApp">
+<head>
+  <!--...-->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="js/controllers.js"></script>
+</head>
+<body ng-controller="PhoneListCtrl">
+
+  <ul>
+    <li ng-repeat="phone in phones">
+      <span>{{phone.name}}</span>
+      <p>{{phone.snippet}}</p>
+    </li>
+  </ul>
+
+</body>
+</html>
+```
+
+
 # Tags are declarative
 
 You specify what you want not how to do it
