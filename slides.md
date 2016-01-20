@@ -10,17 +10,13 @@
 
 # Customize
 
-Transition Styles:
-
-[None](?transition=none#/transitions) -
+Transition Styles: [None](?transition=none#/transitions) -
 [Slide](?transition=slide#/transitions) -
 [Convex](?transition=convex#/transitions) -
 [Concave](?transition=concave#/transitions) -
 [Zoom](?transition=zoom#/transitions)
 
-Themes:
-
-<a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/black.css'); return false;">Black (default)</a> -
+Themes: <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/black.css'); return false;">Black (default)</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/white.css'); return false;">White</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/league.css'); return false;">League</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/sky.css'); return false;">Sky</a> -
@@ -32,9 +28,7 @@ Themes:
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/moon.css'); return false;">Moon</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/solarized.css'); return false;">Solarized</a>
 
-Highlight:
-
-<a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/reveal.js/lib/css/zenburn.css'); return false;">Black (default)</a> -
+Highlight: <a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/reveal.js/lib/css/zenburn.css'); return false;">Black (default)</a> -
 <a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/base16-oceanic-next/highlight.js/base16-oceanicnext.dark.css'); return false;">Oceanic Next (default)</a>
 
 
