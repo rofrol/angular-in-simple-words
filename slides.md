@@ -31,6 +31,7 @@ Themes: <a href="#" onclick="document.getElementById('theme').setAttribute('href
 Highlight: <a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/reveal.js/lib/css/zenburn.css'); return false;">Zenburn</a> -
 <a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/base16-oceanic-next/highlight.js/base16-oceanicnext.dark.css'); return false;">Oceanic Next (default)</a> -
 <a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/highlight/lib/vendor/highlight.js/styles/default.css'); return false;">default</a>
+<a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/highlight/lib/vendor/highlight.js/styles/github.css'); return false;">github</a>
 
 
 # HTML tags
