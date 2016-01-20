@@ -201,7 +201,10 @@ app.constant('fooConfig', {
 
 ![](One_Way_Data_Binding.png)
 
+
 # Data Binding in Angular Templates
+
+![](Two_Way_Data_Binding.png)
 
 
 # One source of true
