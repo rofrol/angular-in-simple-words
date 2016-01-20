@@ -209,7 +209,7 @@ app.constant('fooConfig', {
 
 # Example of two-way data Binding
 
-```html
+```
 Search: <input ng-model="query">
 Sort by:
 <select ng-model="orderProp">
