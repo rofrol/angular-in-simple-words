@@ -117,9 +117,9 @@ controller('myController', function() {
 
 # Three kinds of services
 
-- factory - without new
-- provider - with new
-- service - new but configure before
+- factory - simple
+- provider - more functions
+- service - can be configured in config
 
 
 # Provider
