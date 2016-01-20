@@ -180,7 +180,7 @@ Example from angularity-todo-es5
 
 # Style guide
 
-John Papa on github
+https://github.com/johnpapa/angular-styleguide
 
 
 # About me
