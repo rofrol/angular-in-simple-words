@@ -19,7 +19,7 @@ Transition Styles:
 <a href="?transition=concave#/transitions">Concave</a> -
 <a href="?transition=zoom#/transitions">Zoom</a>
 
-## Themes
+Themes:
 
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
