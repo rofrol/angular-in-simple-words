@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/rofrol/angular-in-simple-words#readme",
   "dependencies": {
+    "base16-oceanic-next": "https://github.com/wbinnssmith/base16-oceanic-next/archive/master.tar.gz",
+    "reveal.js": "^3.2.0"
+  },
+  "devDependencies": {
     "chokidar": "^1.4.2",
     "shelljs": "^0.5.3"
   }

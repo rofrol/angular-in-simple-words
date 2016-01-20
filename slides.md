@@ -1,21 +1,34 @@
 # Angular.js in simple words
 
+
+# Video
+
+  <video data-autoplay>
+    <source data-src="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4" type="video/mp4" />
+  </video>
+
+
 # HTML tags
 
 Angular is a way to add new html tags
+
 
 # Tags are declarative
 
 You specify what you want not how to do it
 
+
 # Cons?
 
+
 # if and loop in templates :(
+
 
 # if and loop in templates :(
 
 - ng-if
 - ng-repeat
+
 
 # Simple example
 
@@ -33,6 +46,7 @@ index.html
 <script src="app.js"></script>
 ```
 
+
 # I want my javascript back!
 
 app.js
@@ -43,7 +57,9 @@ controller('myController', function() {
 });
 ```
 
+
 # Services are singletones
+
 
 # Three kinds of services
 
@@ -51,71 +67,99 @@ controller('myController', function() {
 - provider
 - config
 
+
 # Three kinds of services
 
 - factory - without new
 - provider - with new
 - config - new but configure before
 
+
 # Data binding
+
 
 # Two-way data-binding
 
+
 # One source of true
+
 
 # Scope
 
+
 # Dirty checking
+
 
 # Directives
 
+
 # config
+
 
 # Injecting
 
 inversion of control -> decoupling -> components
 
+
 # Kinds of Scope
+
 
 # ng-if and ng-repeat have their own scopes
 
 $parent.sth
 
+
 # Testing
+
 
 # Local storage
 
+
 Example from angularity-todo-es5
+
 
 # Digest
 
+
 # Talking to outside world
+
 
 # Events - $scope.watch
 
+
 # Filters
+
 
 # Phases: link, etc
 
+
 # $timeout
+
 
 # Communicate between Directives
 
+
 # Kinds of Directives
+
 
 # Two directives on element and private scope
 
+
 # $destroy
+
 
 # Learn
 
 - free video course
 - oficial turorial
 
+
 # Style guide
 
 John Papa on github
 
+
 # About me
+
 
 # Questions
