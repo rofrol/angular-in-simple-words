@@ -10,7 +10,7 @@
 
 # Customize
 
-## Transition Styles
+Transition Styles:
 
 <a href="?transition=none#/transitions">None</a> -
 <a href="?transition=fade#/transitions">Fade</a> -
