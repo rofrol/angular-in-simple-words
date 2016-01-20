@@ -199,12 +199,11 @@ app.constant('fooConfig', {
 
 # Data Binding in Classical Template Systems
 
-![](One_Way_Data_Binding.png)
 
 
 # Data Binding in Angular Templates
 
-![](Two_Way_Data_Binding.png)
+
 
 
 # Example of two-way data Binding
