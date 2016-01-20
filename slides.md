@@ -174,8 +174,8 @@ Example from angularity-todo-es5
 
 # Learn
 
-- free video course
-- oficial turorial
+- https://docs.angularjs.org/tutorial
+- http://angular.codeschool.com/
 
 
 # Style guide
