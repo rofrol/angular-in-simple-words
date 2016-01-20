@@ -208,8 +208,6 @@ app.constant('fooConfig', {
 
 # Example of two-way data Binding
 
-```one
-```
 
 # One source of true
 
