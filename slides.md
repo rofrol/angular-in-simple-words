@@ -209,24 +209,22 @@ app.constant('fooConfig', {
 
 # Example of two-way data Binding
 
-<code>
 ```html
-Search: <input ng-model="query">
+Search: &#x3C;input ng-model=&#x22;query&#x22;&#x3E;
 Sort by:
-<select ng-model="orderProp">
-  <option value="name">Alphabetical</option>
-  <option value="age">Newest</option>
-</select>
+&#x3C;select ng-model=&#x22;orderProp&#x22;&#x3E;
+  &#x3C;option value=&#x22;name&#x22;&#x3E;Alphabetical&#x3C;/option&#x3E;
+  &#x3C;option value=&#x22;age&#x22;&#x3E;Newest&#x3C;/option&#x3E;
+&#x3C;/select&#x3E;
 
 
-<ul class="phones">
-  <li ng-repeat="phone in phones | filter:query | orderBy:orderProp">
-    <span>{{phone.name}}</span>
-    <p>{{phone.snippet}}</p>
-  </li>
-</ul>
+&#x3C;ul class=&#x22;phones&#x22;&#x3E;
+  &#x3C;li ng-repeat=&#x22;phone in phones | filter:query | orderBy:orderProp&#x22;&#x3E;
+    &#x3C;span&#x3E;{{phone.name}}&#x3C;/span&#x3E;
+    &#x3C;p&#x3E;{{phone.snippet}}&#x3C;/p&#x3E;
+  &#x3C;/li&#x3E;
+&#x3C;/ul&#x3E;Foo &#xA9; bar &#x1D306; baz &#x2603; qux
 ```
-</code>
 
 # One source of true
 
