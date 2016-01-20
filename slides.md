@@ -107,19 +107,14 @@ controller('myController', function() {
 - Singletons
 
 
-# Types of services
+# Types kinds of services
 
-- provider - we can configure a provider in the config function
-- factory - very simple to write, but lacks some important features
-- service -
+- provider - just needs to return a function called $get which is what we inject on the other components
+- factory - receives a function that gets called when we create it
+- service - receives a constructor function where we do a new on it (actually internally is uses Object.create instead of new)
 - value
 
-
-# Three kinds of services
-
-- factory - simple
-- provider - more functions
-- service - can be configured in config
+http://angular-tips.com/blog/2013/08/understanding-service-types/
 
 
 # Provider
@@ -175,6 +170,19 @@ app.factory('foo', function() {
 
 app.factory('bar', function(a) {
   return a * 2;
+});
+```
+
+
+# Service
+
+```javascript
+app.service('foo', function() {
+  var thisIsPrivate = "Private";
+  this.variable = "This is public";
+  this.getPrivate = function() {
+    return thisIsPrivate;
+  };
 });
 ```
 
