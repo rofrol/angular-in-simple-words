@@ -32,6 +32,10 @@ Themes:
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/moon.css'); return false;">Moon</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/solarized.css'); return false;">Solarized</a>
 
+Highlight:
+
+<a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/reveal.js/lib/css/zenburn.css'); return false;">Black (default)</a> -
+<a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/base16-oceanic-next/highlight.js/base16-oceanicnext.dark.css'); return false;">Oceanic Next (default)</a>
 
 # HTML tags
 
