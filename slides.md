@@ -206,6 +206,25 @@ app.constant('fooConfig', {
 
 ![](Two_Way_Data_Binding.png)
 
+# Example of two-way data Binding
+
+```javascript
+Search: <input ng-model="query">
+Sort by:
+<select ng-model="orderProp">
+  <option value="name">Alphabetical</option>
+  <option value="age">Newest</option>
+</select>
+
+
+<ul class="phones">
+  <li ng-repeat="phone in phones | filter:query | orderBy:orderProp">
+    <span>{{phone.name}}</span>
+    <p>{{phone.snippet}}</p>
+  </li>
+</ul>
+```
+
 
 # One source of true
 
