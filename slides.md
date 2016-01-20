@@ -115,7 +115,7 @@ controller('myController', function() {
 - value
 
 
-# Three kinds of Provider
+# Three kinds of services
 
 - factory - without new
 - provider - with new
