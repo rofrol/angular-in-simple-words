@@ -7,8 +7,9 @@
     <source data-src="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4" type="video/mp4" />
   </video>
 
+# Customize
 
-# Transition Styles
+## Transition Styles
 
 <a href="?transition=none#/transitions">None</a> -
 <a href="?transition=fade#/transitions">Fade</a> -
@@ -17,8 +18,7 @@
 <a href="?transition=concave#/transitions">Concave</a> -
 <a href="?transition=zoom#/transitions">Zoom</a>
 
-
-# Themes
+## Themes
 
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
