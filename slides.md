@@ -107,14 +107,14 @@ controller('myController', function() {
 - Singletons
 
 
-# Three kinds of services
+# Types of service
 
-- factory
-- provider
+- provider - we can configure a provider in the config function
+- factory -
 - service
 
 
-# Three kinds of services
+# Three kinds of Provider
 
 - factory - without new
 - provider - with new
