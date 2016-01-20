@@ -197,10 +197,11 @@ app.constant('fooConfig', {
 ```
 
 
-# Data binding
+# Data Binding in Classical Template Systems
 
+![](One_Way_Data_Binding.png)
 
-# Two-way data-binding
+# Data Binding in Angular Templates
 
 
 # One source of true
