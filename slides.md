@@ -209,6 +209,7 @@ app.constant('fooConfig', {
 
 # Example of two-way data Binding
 
+<pre>
 ```html
 Search: <input ng-model="query">
 Sort by:
@@ -225,7 +226,7 @@ Sort by:
   </li>
 </ul>
 ```
-
+</pre>
 
 # One source of true
 
