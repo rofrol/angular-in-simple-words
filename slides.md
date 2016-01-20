@@ -118,7 +118,7 @@ controller('myController', function() {
 
 - factory - without new
 - provider - with new
-- config - new but configure before
+- service - new but configure before
 
 
 # factory
