@@ -204,8 +204,6 @@ app.constant('fooConfig', {
 # Data Binding in Angular Templates
 
 
-
-
 # Example of two-way data Binding
 
 
