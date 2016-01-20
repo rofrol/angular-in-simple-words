@@ -121,6 +121,29 @@ controller('myController', function() {
 - config - new but configure before
 
 
+# factory
+
+```javascript
+app.factory('foo', function() {
+  var thisIsPrivate = "Private";
+  function getPrivate() {
+    return thisIsPrivate;
+  }
+
+  return {
+    variable: "This is public",
+    getPrivate: getPrivate
+  };
+});
+
+// or..
+
+app.factory('bar', function(a) {
+  return a * 2;
+});
+```
+
+
 # Data binding
 
 
