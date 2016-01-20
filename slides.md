@@ -107,7 +107,7 @@ controller('myController', function() {
 - Singletons
 
 
-# Types of service
+# Types of services
 
 - provider - we can configure a provider in the config function
 - factory -
