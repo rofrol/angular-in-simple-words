@@ -90,6 +90,11 @@ index.html
 ```
 
 
+# Directives
+
+![](directive.png)
+
+
 # I want my javascript back!
 
 app.js
@@ -199,12 +204,22 @@ app.constant('fooConfig', {
 
 # Data Binding in Classical Template Systems
 
+![](One_Way_Data_Binding.png)
 
 
 # Data Binding in Angular Templates
 
+![](Two_Way_Data_Binding.png)
 
-# Example of two-way data Binding
+
+# Example
+
+![](tw-way.png)
+
+
+# ng-if and ng-repeat have their own scopes
+
+$parent.sth
 
 
 # One source of true
@@ -214,9 +229,6 @@ app.constant('fooConfig', {
 
 
 # Dirty checking
-
-
-# Directives
 
 
 # config
@@ -239,7 +251,6 @@ $parent.sth
 
 
 # Local storage
-
 
 Example from angularity-todo-es5
 
