@@ -206,6 +206,7 @@ app.constant('fooConfig', {
 
 ![](Two_Way_Data_Binding.png)
 
+
 # Example of two-way data Binding
 
 ```javascript
