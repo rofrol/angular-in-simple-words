@@ -42,7 +42,6 @@ Angular is a way to add new html tags
 ```html
 <html ng-app="phonecatApp">
 <head>
-  <!--...-->
   <script src="bower_components/angular/angular.js"></script>
   <script src="js/controllers.js"></script>
 </head>
