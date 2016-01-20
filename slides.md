@@ -187,6 +187,16 @@ app.service('foo', function() {
 ```
 
 
+# Value
+
+```javascript
+app.constant('fooConfig', {
+  config1: true,
+  config2: "Default config2"
+});
+```
+
+
 # Data binding
 
 
