@@ -69,9 +69,6 @@ You specify what you want not how to do it
 
 # if and loop in templates :(
 
-
-# if and loop in templates :(
-
 - ng-if
 - ng-repeat
 
