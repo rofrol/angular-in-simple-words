@@ -183,7 +183,4 @@ Example from angularity-todo-es5
 https://github.com/johnpapa/angular-styleguide
 
 
-# About me
-
-
 # Questions?
