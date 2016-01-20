@@ -101,14 +101,17 @@ controller('myController', function() {
 ```
 
 
-# Services are singletones
+# Services
+
+- Lazily instantiated
+- Singletons
 
 
 # Three kinds of services
 
 - factory
 - provider
-- config
+- service
 
 
 # Three kinds of services
