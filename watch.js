@@ -3,9 +3,9 @@
 var chokidar = require('chokidar');
 var shell = require("shelljs");
 
-shell.exec('git pull --rebase');
 shell.exec('git add -A');
 shell.exec('git commit -a -m "" --allow-empty-message');
+shell.exec('git pull --rebase');
 shell.exec('git push');
 
 var watcher = chokidar.watch('.', {
