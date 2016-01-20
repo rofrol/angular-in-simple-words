@@ -110,8 +110,9 @@ controller('myController', function() {
 # Types of services
 
 - provider - we can configure a provider in the config function
-- factory -
-- service
+- factory - very simple to write, but lacks some important features
+- service -
+- value
 
 
 # Three kinds of Provider
@@ -119,6 +120,40 @@ controller('myController', function() {
 - factory - without new
 - provider - with new
 - service - new but configure before
+
+
+# Provider
+
+```javascript
+app.provider('foo', function() {
+
+  var thisIsPrivate = "Private";
+
+  return {
+
+    setPrivate: function(newVal) {
+      thisIsPrivate = newVal;
+    },
+
+    $get: function() {
+      function getPrivate() {
+        return thisIsPrivate;
+      }
+
+      return {
+        variable: "This is public",
+        getPrivate: getPrivate
+      };
+    }
+
+  };
+
+});
+
+app.config(function(fooProvider) {
+  fooProvider.setPrivate('New value from config');
+});
+```
 
 
 # factory
