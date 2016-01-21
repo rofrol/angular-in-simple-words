@@ -17,4 +17,4 @@ npm run watch
 
 ## PDF Export
 
-To print add `?print-pdf` i.e. `index.html?print-pdf`.
+To print add `?print-pdf` i.e. `index.html?print-pdf`. More here https://github.com/hakimel/reveal.js#pdf-export
