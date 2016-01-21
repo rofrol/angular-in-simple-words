@@ -14,7 +14,7 @@ Transition Styles: [None](?transition=none#/transitions) -
 [Concave](?transition=concave#/transitions) -
 [Zoom](?transition=zoom#/transitions)
 
-Themes: <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/black.css'); return false;">Black (default)</a> -
+Themes: [None](?transition=none#/transitions)<a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/black.css'); return false;">Black (default)</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/white.css'); return false;">White</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/league.css'); return false;">League</a> -
 <a href="#" onclick="document.getElementById('theme').setAttribute('href','node_modules/reveal.js/css/theme/sky.css'); return false;">Sky</a> -
@@ -29,7 +29,9 @@ Themes: <a href="#" onclick="document.getElementById('theme').setAttribute('href
 Highlight: <a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/reveal.js/lib/css/zenburn.css'); return false;">Zenburn</a> -
 <a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/base16-oceanic-next/highlight.js/base16-oceanicnext.dark.css'); return false;">Oceanic Next (default)</a> -
 <a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/highlight.js/src/styles/default.css'); return false;">default</a> -
-<a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/highlight.js/src/styles/github.css'); return false;">github</a>
+<a href="#" onclick="document.getElementById('highlight').setAttribute('href','node_modules/highlight.js/src/styles/github.css'); return false;">github (default)</a>
+
+[Print](?print-pdf)
 
 
 # HTML tags
@@ -219,70 +221,9 @@ app.constant('fooConfig', {
 
 # ng-if and ng-repeat have their own scopes
 
+```
 $parent.sth
-
-
-# One source of true
-
-
-# Scope
-
-
-# Dirty checking
-
-
-# config
-
-
-# Injecting
-
-inversion of control -> decoupling -> components
-
-
-# Kinds of Scope
-
-
-# ng-if and ng-repeat have their own scopes
-
-$parent.sth
-
-
-# Testing
-
-
-# Local storage
-
-Example from angularity-todo-es5
-
-
-# Digest
-
-
-# Talking to outside world
-
-
-# Events - $scope.watch
-
-
-# Filters
-
-
-# Phases: link, etc
-
-
-# $timeout
-
-
-# Communicate between Directives
-
-
-# Kinds of Directives
-
-
-# Two directives on element and private scope
-
-
-# $destroy
+```
 
 
 # Learn

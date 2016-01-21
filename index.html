@@ -1,14 +1,111 @@
-Search: <input ng-model="query">
-Sort by:
-<select ng-model="orderProp">
-  <option value="name">Alphabetical</option>
-  <option value="age">Newest</option>
-</select>
+<!doctype html>
+<html lang="en">
 
+	<head>
+		<meta charset="utf-8">
 
-<ul class="phones">
-  <li ng-repeat="phone in phones | filter:query | orderBy:orderProp">
-    <span>{{phone.name}}</span>
-    <p>{{phone.snippet}}</p>
-  </li>
-</ul>
+		<title>Angular.js in simple words</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="node_modules/reveal.js/css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="node_modules/highlight.js/src/styles/github.css" id="highlight">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'node_modules/reveal.js/css/print/pdf.css' : 'node_modules/reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+
+      document.getElementById( 'body' ).classList.add('print');
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+    <style>
+      .reveal .slides > section h1 { font-size: 44px; }
+      .reveal .slides > section h2 { font-size: 40px; }
+
+      .reveal .slides > section.present, .reveal .slides > section > section.present {
+        min-height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        position: absolute !important;
+        top: 0 !important;
+      }
+      .reveal section > h1 {
+        position: absolute !important;
+        top: 0 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        left: 0 !important;
+        right: 0 !important;
+      }
+
+      .print-pdf .reveal .slides > section.present, .print-pdf .reveal .slides > section > section.present {
+        min-height: 770px !important;
+        position: relative !important;
+      }
+    </style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+        <section data-markdown="slides.md"
+         data-separator="^\n\n\n"
+         data-separator-vertical="^\n\n"
+         data-separator-notes="^Note:"
+         data-charset="utf-8">
+        </section>
+			</div>
+
+		</div>
+
+		<script src="node_modules/reveal.js/lib/js/head.min.js"></script>
+		<script src="node_modules/reveal.js/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'node_modules/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'node_modules/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'node_modules/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'node_modules/reveal.js/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
