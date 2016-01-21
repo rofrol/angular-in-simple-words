@@ -1,6 +1,6 @@
-Slides about angular.
+# Slides about angular
 
-To have it autosave and push changes:
+## Install dependencies and run
 
 ```
 npm i --production
@@ -8,11 +8,13 @@ npm i --production
 
 Open `index.html` in the browser.
 
-To git commit and push changes after save:
+## git commit and push changes after save
 
 ```
 npm i --dev
 npm run watch
 ```
+
+## PDF Export
 
 To print add `?print-pdf` i.e. `index.html?print-pdf`.
